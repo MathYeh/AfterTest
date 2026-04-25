@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>統測後畢業前：課程規範與建議</title>
+    <style>
+        :root {
+            --primary-blue: #1e40af;
+            --accent-gold: #f59e0b;
+            --bg-gray: #f8fafc;
+            --text-dark: #1e293b;
+            --white: #ffffff;
+        }
+
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            background-color: var(--bg-gray);
+            color: var(--text-dark);
+            line-height: 1.7;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--white);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-top: 8px solid var(--primary-blue);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px dashed #e2e8f0;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            margin: 0;
+            font-size: 1.8rem;
+        }
+
+        .subtitle {
+            color: #64748b;
+            font-size: 1rem;
+            margin-top: 5px;
+        }
+
+        h2 {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+            color: var(--primary-blue);
+            background: #eff6ff;
+            padding: 10px 15px;
+            border-radius: 6px;
+            margin-top: 30px;
+        }
+
+        h2::before {
+            content: "📌";
+            margin-right: 10px;
+        }
+
+        .rule-list, .suggestion-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .rule-list li {
+            padding: 12px 15px;
+            border-bottom: 1px solid #f1f5f9;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .rule-list li span.num {
+            background: var(--primary-blue);
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 0.8rem;
+            margin-right: 12px;
+            flex-shrink: 0;
+            margin-top: 3px;
+        }
+
+        .suggestion-card {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .card {
+            background: #fffbeb;
+            border-left: 4px solid var(--accent-gold);
+            padding: 15px;
+            border-radius: 4px;
+            font-size: 0.95rem;
+        }
+
+        .warning {
+            color: #dc2626;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            .suggestion-card {
+                grid-template-columns: 1fr;
+            }
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>統測後畢業前課程規範</h1>
+        <p class="subtitle">請各位同學共同遵守，珍惜在校最後時光</p>
+    </header>
+
+    <section>
+        <h2>課堂管理與紀律</h2>
+        <ul class="rule-list">
+            <li>
+                <span class="num">1</span>
+                <div>每節課上課，請<strong>副班長</strong>確實點名並記錄在點名表上。</div>
+            </li>
+            <li>
+                <span class="num">2</span>
+                <div>上課中若需離開教室，請先徵求老師同意。獲准後，務必於<strong>點名板上寫下你的學號</strong>。</div>
+            </li>
+            <li>
+                <span class="num">3</span>
+                <div>開放手機、平板、筆記型電腦使用，但<span class="warning">禁止「玩電動」、「追劇」</span>（包含觀看與電動有關之影片）。</div>
+            </li>
+            <li>
+                <span class="num">4</span>
+                <div>禁止攜帶或使用桌遊、撲克牌、麻將、象棋等遊戲娛樂用品。其餘未列出之遊具，請先詢問老師是否開放。</div>
+            </li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>課程時間建議利用</h2>
+        <div class="suggestion-card">
+            <div class="card">
+                <strong>📝 學習歷程</strong><br>
+                完成學習檔案歷程，特別是「學習檔案摘要」的撰寫。
+            </div>
+            <div class="card">
+                <strong>🎓 志願規劃</strong><br>
+                蒐集升學資訊，冷靜思考並確定你的志願選填方向。
+            </div>
+            <div class="card">
+                <strong>📚 自我充實</strong><br>
+                多利用圖書館資源，借閱幾本自己感興趣的好書。
+            </div>
+            <div class="card">
+                <strong>🌏 拓展視野</strong><br>
+                善用網路資源，走出台灣，多去看看世界各地的發展。
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>祝各位同學 畢業愉快，前程似錦</p>
+    </footer>
+</div>
+
+</body>
+</html>
